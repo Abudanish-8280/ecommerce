@@ -1,0 +1,14 @@
+.my-orders h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.my-orders .order-img {
+    width: 80px;
+}
+
+
+
+.my-orders button.form-button {
+    background: #ff2b2b;
+}

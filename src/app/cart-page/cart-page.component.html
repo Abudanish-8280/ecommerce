@@ -1,0 +1,58 @@
+<div class="secondary-container">
+    <div class="container">
+        <div class="cart-page">
+            <h1>
+                Cart Page
+            </h1>
+            <div class="row">
+                <div class="col-sm-8">
+                    <table>
+                        <tr *ngFor="let cart of cartData">
+                            <td><img src="{{cart.image}}" alt=""></td>
+                            <td>{{cart.name}}</td>
+                            <td>Price : {{cart.price}}</td>
+                            <td>Quantity : {{cart.quantity}}</td>
+                            <td><button class="form-button" (click)="removeToCart(cart.id)">Remove To Cart</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-4">
+                    <table>
+                        <tr>
+                            <td>Amount:</td>
+                            <td>{{priceSummary.price}}</td>
+                        </tr>
+                        <tr>
+                            <td>Tax:</td>
+                            <td>{{priceSummary.tax}}</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery:</td>
+                            <td>{{priceSummary.delivery}}</td>
+                        </tr>
+                        <tr>
+                            <td>Discount:</td>
+                            <td>{{priceSummary.discount}}</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>{{priceSummary.total}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button (click)="checkout()" class="form-button max-width">Checkout</button></td>
+                        </tr>
+                    </table>
+                    <ul>
+
+                        <li> <span>
+                                <h4></h4>
+                            </span> <span>
+                                <h4></h4>
+                            </span></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
