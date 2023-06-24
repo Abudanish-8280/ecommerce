@@ -89,29 +89,8 @@
       "id": 1
     }
   ],
-  "cart": [
-    {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 1
-    }
-  ],
+  "cart": [],
   "orders": [
-    {
-      "email": "anil@user.com",
-      "address": "noida sector x",
-      "contact": "9999",
-      "totalPrice": 104750,
-      "userId": 1,
-      "id": 1
-    },
     {
       "email": "anil@gmail.com",
       "address": "bhubaneswar",
@@ -119,6 +98,14 @@
       "totalPrice": 200100,
       "userId": 1,
       "id": 2
+    },
+    {
+      "email": "asdf",
+      "address": "asdfa",
+      "contact": "asdf",
+      "totalPrice": 650,
+      "userId": 1,
+      "id": 3
     }
   ]
 }
